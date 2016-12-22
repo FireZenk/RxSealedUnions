@@ -29,7 +29,7 @@ import rx.functions.Func1;
  * @param <Fifth> fifth possible type
  * @param <Sixth> sixth possible type
  */
-public interface Union6<First, Second, Third, Fourth, Fifth, Sixth> {
+public interface Union6<First, Second, Third, Fourth, Fifth, Sixth> extends Union {
     /**
      * Executes one of the continuations depending on the element type
      */

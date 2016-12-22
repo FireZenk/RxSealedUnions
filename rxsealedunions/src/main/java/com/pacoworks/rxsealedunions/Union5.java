@@ -28,7 +28,7 @@ import rx.functions.Func1;
  * @param <Fourth> fourth possible type
  * @param <Fifth> fifth possible type
  */
-public interface Union5<First, Second, Third, Fourth, Fifth> {
+public interface Union5<First, Second, Third, Fourth, Fifth> extends Union {
     /**
      * Executes one of the continuations depending on the element type
      */

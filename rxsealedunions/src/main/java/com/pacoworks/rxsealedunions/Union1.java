@@ -26,7 +26,7 @@ import rx.functions.Func1;
  * 
  * @param <First> The type represented by this union
  */
-public interface Union1<First> {
+public interface Union1<First> extends Union {
     /**
      * Executes one of the continuations depending on the element type
      */

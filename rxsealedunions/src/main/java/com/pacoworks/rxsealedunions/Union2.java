@@ -25,7 +25,7 @@ import rx.functions.Func1;
  * @param <First> first possible type
  * @param <Second> second possible type
  */
-public interface Union2<First, Second> {
+public interface Union2<First, Second> extends Union {
     /**
      * Executes one of the continuations depending on the element type
      */
